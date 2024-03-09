@@ -1,0 +1,19 @@
+{
+  "name": "rag-app",
+  "version": "1.0.0",
+  "description": "Building Rag Application for PDF Data",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/openai": "^0.0.18",
+    "dotenv": "^16.4.5",
+    "faiss-node": "^0.5.1",
+    "langchain": "^0.1.21",
+    "pdfjs-dist": "^4.0.379"
+  }
+}
